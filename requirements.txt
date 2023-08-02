@@ -21,7 +21,7 @@ cffi
 charset-normalizer
 clean-fid
 click
-clip
+clip @ git+https://github.com/openai/CLIP.git
 coloredlogs
 commonmark
 contourpy
@@ -51,7 +51,7 @@ gfpgan
 gitdb
 GitPython
 google-auth
-google-auth
+google-auth-oauthlib
 gradio
 grpcio
 h11
@@ -77,9 +77,7 @@ llvmlite
 lmdb
 lpips
 Markdown
-markdown-it-py
-MarkupSafe
-matplotlib
+markdown-it-py-plugins
 mdit-py-plugins
 mdurl
 mpmath
@@ -88,22 +86,21 @@ mypy-extensions
 networkx
 numba
 numpy
-nvidia-pyindex
 nvidia-cublas-cu11
-nvidia-cuda
-nvidia-cuda
-nvidia-cudnn
+nvidia-cuda-nvrtc-cu11
+nvidia-cuda-runtime-cu11
+nvidia-cudnn-cu11
 oauthlib
-omegacon
-onn
-onnxruntim
-open
-opencv-pytho
+omegaconf
+onnx
+onnxruntime
+open-clip-torch @ git+https://github.com/mlfoundations/open_clip.git
+opencv-python
 orjson
-packagin
-panda
-paramik
-pathspe
+packaging
+pandas
+paramiko
+pathspec
 piexif
 Pillow
 platformdirs
@@ -130,7 +127,7 @@ python-dateutil
 python-multipart
 pytorch-lightning
 pytz
-pytz-deprecation
+pytz-deprecation-shim
 PyWavelets
 PyYAML
 realesrgan
@@ -154,12 +151,12 @@ sniffio
 soundfile
 starlette
 streamlit
-streamlit-drawable
+streamlit-drawable-canvas
 sympy
 tb-nightly
 tensorboard
-tensorboard-data
-tensorboard-plugin
+tensorboard-data-server
+tensorboard-plugin-wit
 termcolor
 threadpoolctl
 tifffile
@@ -181,7 +178,7 @@ typing-inspect
 typing_extensions
 tzdata
 tzlocal
-uc-micro
+uc-micro-py
 urllib3
 uvicorn
 validators
